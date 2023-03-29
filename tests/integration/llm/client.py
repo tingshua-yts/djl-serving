@@ -246,7 +246,7 @@ def test_handler(model, model_spec):
     for batch_size in spec["batch_size"]:
         for seq_length in spec["seq_length"]:
             req = {"inputs": batch_generation(batch_size)}
-            params = {"max_new_tokens": seq_length}
+            params = {"seq_length": seq_length}
             req["parameters"] = params
             logging.info(f"req {req}")
             res = send_json(req)
