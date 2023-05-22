@@ -1,0 +1,1 @@
+djl-serving -m /mnt/project/djl-serving/demo/bloom-7b

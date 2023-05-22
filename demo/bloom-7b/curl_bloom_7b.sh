@@ -1,0 +1,1 @@
+curl -X POST http://127.0.0.1:8080/predictions/bloom_7b -H "Content-type: text/plain" -d "I'm very thirsty, I should "
